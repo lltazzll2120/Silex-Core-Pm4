@@ -1,0 +1,21 @@
+Guest:
+  tpk: 1
+  nametag: "&l&aOwner &r{player}"
+  chat-format: "&a&lGuest &r&b{player} &8> &3{msg}"
+  permissions: []
+  default: true # Note, you have to make a rank clarified as a default rank or it'll set a random rank for every new player that joins.
+
+OP:
+  tpk: 2
+  nametag: "&l&cOwner &r{player}"
+  chat-format: "&c&lOP &r&b{player} &8> &3{msg}"
+  permissions:
+    - "*"
+
+Owner:
+  tpk: 3
+  nametag: "&l&dOwner &r{player}"
+  chat-format: "&d&lOwner &r&b{player} &8> &3{msg}"
+  permissions:
+    - "economyapi.command.givemoney" # This permission was used for testing.
+    - "sinksranksystem.setrank.command"

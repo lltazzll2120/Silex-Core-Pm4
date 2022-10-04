@@ -1,0 +1,5 @@
+## YAML Template.
+---
+moneyRewards: 100
+moneySubstract: 100
+lobbyWorld: "WaitLobby"

@@ -1,0 +1,32 @@
+name: DuelsWorld
+main: DuelsWorld\Main
+version: 1.0.0
+api: 4.0.0
+description: "Top plugins Duels like versai"
+authors: [Salvatore, Laith98Dev]
+website: https://github.com/Laith98Dev
+
+permissions:
+  sinksranksystem.setrank.command:
+    default: op
+  event.command:
+    default: op
+  ban.command:
+    default: op
+  hub.command:
+    default: true
+  nick.command:
+    default: op
+  ping.command:
+    default: true
+  rekit.command:
+    default: true
+  shop.command:
+    default: true
+  spectate.command:
+    default: true
+  staffmode.command:
+    default: op
+  givetokens.command:
+    default: op
+  

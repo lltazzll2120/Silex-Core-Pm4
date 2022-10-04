@@ -1,0 +1,44 @@
+arenas:
+    # BuildUHC, Spleef, Sumo
+    Templum: #nameworld
+        # Time in seconds
+        effect: 0
+        level_effect: 0
+        time: 300
+        knockBack: 2.1
+        type: "BuildUHC"
+        spawnLocation:
+            0:
+                x: 100
+                "y": 70
+                z: 100
+            1:
+                x: 100
+                "y": 70
+                z: 100
+        kit:
+            # From HELMET to BOOTS qyesto è armor
+            Armor:
+                # HELMET questo terzo numero è sempre zero per le armature tipo di enchant il quarto è id enchant il quinto il livello dell'enchant
+                - "302:0:0:1:1"
+                # CHESTPLAYE
+                - "123:55:1:0:0"
+                # LEGGINS
+                - "123:55:1:0:0"
+                #BOOTS
+                - "123:55:1:0:0"
+            # item bar sono gli item che stanno nella barra ovviamente sono 9
+            ItemBar:
+                # id damage ammount enchant level puoi aggiungere altri due punti per gli enchant
+                - "276:0:1:1:0"
+                - "1:1:0"
+                - "1:1:0"
+                - "1:1:0"
+                - "1:1:0"
+                - "1:1:0"
+                - "1:1:0"
+                - "1:1:0"
+                - "1:1:0"
+                # questo sono gli item extra su inventory oltre quelli sulla barr
+            Inventory:
+                - "23:1:0"
